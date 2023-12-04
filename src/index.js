@@ -9,9 +9,11 @@ var url = '../test.pdf';
   // Asynchronous download of PDF
   var loadingTask = pdfjsLib.getDocument(url);
   loadingTask.promise.then(function(pdf) {
-    console.log('PDF loaded');
+    console.log(pdf);
 
     // Fetch the first page
+    let numberOfPages = pdf.numPages;
+    //
     var pageNumber = 1;
     pdf.getPage(pageNumber).then(function(page) {
       console.log('Page loaded');
