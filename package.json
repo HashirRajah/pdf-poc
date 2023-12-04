@@ -1,0 +1,28 @@
+{
+  "name": "pdf-poc",
+  "version": "1.0.0",
+  "description": "PDF viewer using pdf.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HashirRajah/pdf-poc.git"
+  },
+  "keywords": [
+    "PDF"
+  ],
+  "author": "Hashir Rajah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HashirRajah/pdf-poc/issues"
+  },
+  "homepage": "https://github.com/HashirRajah/pdf-poc#readme",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.0.269"
+  }
+}
